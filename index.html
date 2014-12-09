@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>One - Responsive</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container">
+	<header class = "row">
+		<figure class="col-md-6 col-sm-5 col-xs-12">
+			<img src="img/mobility-logo.png" alt="logo" class="logo">
+		</figure>
+		<section class="col-md-6 col-sm-7 col-sx-6 header-elements hidden-xs">
+			<time >05 Dec 2014 10:10PM</time>
+			<form action="" class="search">
+				<input type="text" class="rounded md-search" placeholder="  Search...">
+				<span>
+				<img class = "search-icon" src="img/search_icon.png" alt="search_icon">
+				</span>
+			</form>
+		</section>
+	</header>
+	<div class="row">
+		<section class="col-xs-12 toggle-menu">
+			<button type="button" class="menu navbar-toggle navbar-toggle-button collapsed" data-toggle="collapse" data-target="#navbar">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <!-- <p>MENU</p> -->
+			</button>
+		</section>
+		<nav class = "navbar navbar-normal col-md-12 col-sm-12 col-xs-12" role = "navigation">
+			<div class="collapse navbar-collapse" id="navbar">
+			    <ul class="nav navbar-nav">
+			        <li class="grow"><a href="#">home</a></li>
+			        <li class="hidden-xs"><img src="img/nav_sepration.png" alt=""></li>
+			        <li class="dropdown">
+			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">mobile technologies <span class="caret"></span>     </a>
+						<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Android</a></li>
+						<li><a href="#">iOS</a></li>
+						<li><a href="#">Blackberry</a></li>
+						<li><a href="#">Windows</a></li>
+						<li><a href="#">Ubuntu Mobile</a></li>
+						</ul>
+			        </li>
+			        <li class="hidden-xs"><img src="img/nav_sepration.png" alt=""></li>
+			        <li class="grow"><a href="#">python & django</a></li>
+			        <li class="hidden-xs"><img src="img/nav_sepration.png" alt=""></li>
+			        <li class="grow"><a href="#">ruby on rails</a></li>
+			        <li class="hidden-xs"><img src="img/nav_sepration.png" alt=""></li>
+			        <li class="grow"><a href="#">javascript & html5</a></li>
+			        <li class="hidden-xs"><img src="img/nav_sepration.png" alt=""></li>
+			    </ul>
+			</div>
+		</nav>
+	</div>
+	<section class="row hidden-md hidden-sm hidden-lg mobile-search">
+		<form action="" class="col-sm-12">
+			<input type="text" class="rounded sm-search" placeholder="  Search...">
+			<span>
+			<img class = "search-icon" src="img/search_icon.png" alt="search_icon">
+			</span>
+		</form>
+	</section>
+	<section class = "content row">
+		<section class="col-md-9">
+			<main class="intro">
+				<img class = "intro-img" src="img/banner_image.png" alt="banner_image">
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum officiis quas, nostrum fugiat error esse repudiandae laboriosam hic, cum quis aperiam nobis perspiciatis nesciunt earum, blanditiis iusto, ea in! Iste impedit fuga ad, non veniam ex. Autem accusantium iste minus reprehenderit dolorem enim odit, perspiciatis! um dolor sit amet, consectetur adipisicing elit. Unde eos soluta commodi modi. Officiis dolor mollitia dolore, blanditiis neque aperiam modi possimus ducimus error sit, hic qui numquam obcaecati quasi nulla voluptatem at similique esse natus? Enim harum corporitis ullam.blanditiis iusto, ea in! Iste impedit fuga ad, non veniam ex. Autem accusantium iste. ullam.blanditiis iusto, ea nihil.</p>
+				<a href="#" class="a-black">read more...</a>
+			</main>
+			<hr class="hr hr-hi">
+			<section class="technology-list">
+				<section class="row">
+					<article class="col-md-4 technology">
+						<h2>iOS</h2>
+						<img class="media-left pull-left" src="img/ios_icon.png" alt="ios_icon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+					<article class="col-md-4 technology">
+						<h2>Android</h2>
+						<img class="media-left pull-left" src="img/android_icon.png" alt="android_icon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+					<article class="col-md-4 technology">
+						<h2>JavaScript, HTML5</h2>
+						<img class="media-left pull-left" src="img/javaScript_icon.png" alt="javaScript">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+				</section>
+				<section class="row">
+					<article class="col-md-4 technology">
+						<h2>Python and Django</h2>
+						<img class="media-left pull-left" src="img/django_icon.png" alt="django_icon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+					<article class="col-md-4 technology">
+						<h2>Ruby on Rails</h2>
+						<img class="media-left pull-left" src="img/ruby_icon.png" alt="ruby_icon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+					<article class="col-md-4 technology">
+						<h2>BlackBerry</h2>
+						<img class="media-left pull-left" src="img/blackberry_icon.png" alt="blackberry_icon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+				</section>
+				<section class="row">
+					<article class="col-md-4 technology">
+						<h2>Ubuntu Mobile</h2>
+						<img class="media-left pull-left" src="img/ubuntu_icon.png" alt="ubuntu_icon">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure minima beatae repellendus nihil error adipisci nesciunt modi dicta deleniti laborum velit sed reiciendis voluptate, dolorum pariatur, consectetur ad quia esse inventore magni laudantium eius id!</p> 
+						<span><a href="#" class="a-red">read more</a></span>
+						<hr>
+					</article>
+					<section class="col-md-8 quick-links">
+						<article class="panel panel-quick-link">
+							<h3 class="quick-link-heading panel-heading">
+								<img src="img/quick_ref_icon.png" alt="ref icon" class="pull-left">
+								Quick Reference Links
+							</h3>
+							<ul class="reference-links">
+								<li class="reference-item">
+									<a href="#" class="reference-link">https://developer.apple.com</a>
+									<p class="reference-desc">Lorem ipsum dolor sit amet elit. Commodi, obcaecati.</p>
+								</li>
+								<hr>
+								<li class="reference-item">
+									<a href="#" class="reference-link">https://developer.android.com/index.html</a>
+									<p class="reference-desc">Lorem ipsum dolor sit amet elit. Commodi, obcaecati.</p>
+								</li>
+								<hr>
+								<li class="reference-item">
+									<a href="#" class="reference-link">https://djangoproject.com</a>
+									<p class="reference-desc">Lorem ipsum dolor sit amet elit. Commodi, obcaecati.</p>
+								</li>
+								<hr>
+							</ul>
+						</article>
+					</section>
+				</section>
+			</section>
+		</section>
+		<aside class="col-md-3">
+			<article class="panel panel-inverse">
+				<h3 class="panel-heading panel-title">Latest<span class = "orange"> News</span></h3>
+				<section class="panel-body">
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						<span><a href="#" class="orange">Read more</a></span>
+					</p>
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						<span><a href="#" class="orange">Read more</a></span>
+					</p>
+				</section>
+			</article>
+			<article class="panel panel-default">
+				<h3 class="panel-heading panel-title">Latest<span class = "orange"> News</span></h3>
+				<section class="panel-body">
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						Tenetur eaque harum necessit nisi fugit modi...
+					</p>
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						Tenetur eaque harum necessit nisi fugit modi...
+					</p>
+				</section>
+			</article>
+			<article class="panel panel-default">
+				<h3 class="panel-heading panel-title">Latest<span class = "orange"> News</span></h3>
+				<section class="panel-body">
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						Tenetur eaque harum necessit nisi fugit modi...
+					</p>
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						Tenetur eaque harum necessit nisi fugit modi...
+					</p>
+				</section>
+			</article>
+			<article class="panel panel-default">
+				<h3 class="panel-heading panel-title">Latest<span class = "orange"> News</span></h3>
+				<section class="panel-body">
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						Tenetur eaque harum necessit nisi fugit modi...
+					</p>
+					<p>
+						<strong>Installs Kongsberg i XL 24</strong>
+						Lorem ipsum dolor sit amet, consectetur sectetur ipsum dolor sit amet...
+						Tenetur eaque harum necessit nisi fugit modi...
+					</p>
+				</section>
+			</article>
+			<article class="panel panel-default">
+				<h3 class="panel-heading panel-title">Latest<span class = "orange"> News</span></h3>
+				<section class="panel-body">
+					<iframe class="calender" src="https://www.google.com/calendar/embed?src=0ugb29kn5mresqqve6oscesbik%40group.calendar.google.com&ctz=Asia/Calcutta" style="border: 0" width="100%" height = "100%" frameborder="0" scrolling="no"></iframe>
+				</section>
+			</article>
+		</aside>
+	</section>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
